@@ -1,0 +1,10 @@
+-- Assignment 7 test3.mhs
+---Chanan Suksangium
+---As tested, hw6 cannot evaluate this function due to problems with unbounded variable while hw7 is call by name thus can 
+---make such call. The function will return true.
+
+let y = (\x -> f (x x));
+	z = \f -> y y
+in
+   (\z ->
+      (||) ((&&) False z) ((||) True z)) (z \x -> x)

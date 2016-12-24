@@ -1,0 +1,11 @@
+Chanan Suksangium CS320 HW5 Question 4: Solutions for e0, e1, e2
+
+Tree> s0
+Just (S [("z",Var "x"),("x",Leaf),("y",Leaf)])
+
+Tree> s1
+Just (S [("x",Node (Node (Node Leaf Leaf) (Node Leaf Leaf)) (Node (Node Leaf Leaf) (Node Leaf Leaf)))])
+
+Tree> s2
+Nothing
+

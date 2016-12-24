@@ -1,0 +1,6 @@
+CS320 HW4 - Chanan Suksangium
+Question 5B
+Superstring produces lists as short as when greedy bestPair is called (ratio for 3 test cases = 1). greedy bestWithFirst prints a slightly longer string compared to
+superstring (ration superstring to bestWithFirst is 0.75). firstPair produces the longest result where ratio of superstring to firstPair is 0.65. On the otherhand, the four
+greedy algorithms managed to generate results much faster than superstring thus calling greedy with bestPair would result in fastest way to generate shortest string in the 
+fastest time.
